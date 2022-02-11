@@ -1,22 +1,29 @@
 body {
   padding: 0;
   margin: 0;
+  color: #254c5f;
 }
 
 a {
   text-decoration: none;
   margin: 0 12px;
+  color: #254c5f;
 }
 
 .header {
-  height: 148px;
+  width: 100%;
+  height: 120px;
   display: flex;
   justify-content: center;
+  background-color: #dda687;
+  position: fixed;
 }
 
 .header .top-center {
+  font-family: cursive;
   display: flex;
   justify-content: center;
+  font-weight: bold;
 }
 
 .top-center .nav-primary,
@@ -30,18 +37,28 @@ a {
 .top-center .blog-name {
   margin: 0 12px;
   display: flex;
-  font-family: learning-curve;
-  font-weight: 400;
-  font-style: normal;
   font-size: 50px;
-  letter-spacing: 0em;
-  line-height: 1em;
-  text-transform: none;
-  color: #a84d38;
   align-items: center;
 }
 
-.content {
-  height: 500px;
-  background-color: black;
+.sliders {
+  height: 100vh;
+  background: url("assets/images/bg-image.jpg") no-repeat fixed top;
+}
+
+.container .our-goal {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-goal .goal-content {
+  text-align: center;
+  width: 70%;
+}
+
+.container .our-populate-blog {
+  height: 600px;
+  background-color: rgba(235, 235, 235, 0.4);
 }
