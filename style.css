@@ -43,6 +43,7 @@ a {
 
 .sliders {
   height: 100vh;
+  min-height: calc(100vh - 92px);
   background: url("assets/images/bg-image.jpg") no-repeat fixed top;
 }
 
@@ -63,4 +64,15 @@ a {
   text-align: center;
   height: 600px;
   background-color: rgba(235, 235, 235, 0.4);
+}
+
+.our-populate-blog .populate-blog-list {
+  display: flex;
+  justify-content: center;
+}
+
+.populate-blog-list .blog-image {
+  flex: 30%;
+  margin: 2%;
+  border: #254c5f solid;
 }
