@@ -59,6 +59,8 @@ a {
 }
 
 .container .our-populate-blog {
+  padding: 12px;
+  text-align: center;
   height: 600px;
   background-color: rgba(235, 235, 235, 0.4);
 }
